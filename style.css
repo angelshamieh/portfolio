@@ -98,7 +98,7 @@
 
 .section {
 background: #F0961F;
-padding: 6rem 1.5rem
+padding: 9rem 1.5rem
 
 }
 
@@ -132,6 +132,7 @@ ul {
 .content {
   display: flex;
   justify-content: center;
+  height: 700px !important;
 }
 
 .knowledge {
@@ -149,7 +150,7 @@ line-height: 1.25;
 }
 .column{
   border-left: 1px solid #E6ECF8;
-  padding: 60px 35px;
+  padding: 60px 0px;
   flex-grow: 1;
 }
 
@@ -215,6 +216,7 @@ line-height: 1.25;
 
 .container {
   text-align: center;
+  width: 80% !important;
 }
 
 .container p {
