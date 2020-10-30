@@ -10,5 +10,3 @@ cards.forEach((card) => {
     card.classList.remove('pop');
   });
 });
-
-

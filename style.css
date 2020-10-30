@@ -1,31 +1,55 @@
 .orange-color {
-  color:#F0961F;
+  color:#F09642;
   font-weight: 350;
+  font-size:30px !important;
 }
 
 /*Navbar*/
-.navbar-lewagon {
-  justify-content: space-between;
-  background: white;
+.navbar-home {
+  justify-content: space-between !important;
+  background: transparent;
+  transition: 0.5s background-color ease;
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar {
+  background: #ffffffc7 !important;
+}
+
+.navbar-home .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 185px;
-  height: 80px;
+.navbar-home .navbar-brand img {
+  width: 160px;
 }
- .nav-link{
-  margin-left: 550px;
- }
+
+.navbar-link {
+  font-family: 'Open Sans', sans-serif !important;
+  color: black !important;
+}
+
+.navbar-link:hover {
+  color: rgba(255, 255, 255, 1) !important;
+  font-weight: 500;
+}
+
+.nav-item {
+  cursor: pointer;
+  color: black !important;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.logo {
+  cursor: pointer;
+}
+
 
 /*Banner*/
 .banner {
   background-size: cover;
   background-position: center;
-  padding: 60px 180px;
+  padding: 1px 180px;
   text-align: center;
 }
 
@@ -50,14 +74,14 @@
 
 .banner img {
   border-radius: 1500px;
-  height: 100px;
+  height: 155px;
 /*  width: 90px;*/
   margin: 0 190px;
 
 }
 
 .first-section {
-  margin-top: -3rem;
+  margin-top: 3rem;
 }
 
 /*Footer*/
@@ -97,7 +121,7 @@
 }
 
 .section {
-background: #F0961F;
+background: #F09642;
 padding: 9rem 1.5rem
 
 }
@@ -107,12 +131,26 @@ padding: 9rem 1.5rem
   color: black;
   text-align: center;
   margin-bottom: 3rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  font-size: 32px;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
+}
+
+.box p{
+  font-size:30px;
+  font-weight: 300;
+  font-family: 'Open Sans', sans-serif;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 
 /*Middle pic*/
 .big-img img {
-  height: 320px;
+  height: 380px;
 
 }
 
@@ -126,6 +164,7 @@ padding: 9rem 1.5rem
 ul {
   list-style: none;
   font-weight: 300;
+  font-size: 24px;
 }
 
 /*aboutme*/
@@ -142,6 +181,7 @@ line-height: 1.25;
 
 .knowledge p {
   color: black;
+  font-size: 24px;
 
 }
 
@@ -149,16 +189,28 @@ line-height: 1.25;
   text-align:center;
 }
 .column{
-  border-left: 1px solid #E6ECF8;
   padding: 60px 0px;
   flex-grow: 1;
 }
 
+.column p{
+  font-size: 24px;
+  font-weight: 300;
+  font-size: 24px;
+  font-weight: 300;
+  font-size: 1.2rem;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-top: 2rem;
+}
 
 .column h2 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  font-size: 30px;
+  font-size: 32px;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  margin-top: 2rem;
 
 }
 
@@ -166,80 +218,127 @@ line-height: 1.25;
   margin-bottom: 1.5rem;
 }
 
-.column p{
-  margin-top: 2rem;
+.column li{
+ font-size: 24px;
+  font-weight: 300;
+  font-size: 24px;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  line-height: 1.25;
+
 }
+
 
 .skills {
-  margin-top: -7rem;
+  padding: 16px;
 }
 
-.container{
+.skills-boxes{
   border-radius: 16px;
   background-color: white;
   border-bottom: 1px solid #E6ECF8;
+  text-align: center;
+  width: 100%;
+  padding-left:
 
 }
+
+.box-left-border{
+  border-left: 1px solid #E6ECF8;
+}
 /*project-cards*/
+.projects-boxes{
+
+}
+
+.subtitle{
+  background: white;
+  padding:16px;
+}
 .card-category {
   background-size: cover;
   background-position: center;
-  height: 250px;
-  width: 300px;
+  height: 20rem;
+  width: 100%;
   color: black;
   font-size: 24px;
   font-weight: 800;
-  /*text-shadow: 1px 1px 3px rgba(0,0,0,0.2);*/
   border-radius: 16px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   flex-grow: 1;
   margin-bottom: 1rem;
   font-family:'Open Sans', sans-serif;
+  display: flex;
+  justify-content: space-between;
 }
 
 .cards-project{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 16px;
+  grid-template-columns: 1fr  ;
+  grid-gap: 24px;
+  margin-top: 30px;
 }
 
+.card-category p {
+  font-weight: 300;
+  line-height: 1.25;
+  font-size: 30px;
+  font-family: 'Open Sans', sans-serif;
+  opacity: .7;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+
+}
+
+.title p {
+  font-weight: 300;
+  line-height: 1.25;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -85px;
+  font-family: 'Open Sans', sans-serif;
+  opacity: .9;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+/*  text-align: left;
+*/
+}
 
 /*projects*/
 
 .title {
-  font-size: 2rem;
+  font-size: 1rem;
   text-align: center;
-  margin-top: 2rem;
   font-family: 'Open Sans', sans-serif;
-
+  background: #F09642;
+  padding: 90px;
+  margin-top: -16px;
+  font-weight: 800;
+  /*opacity: .9;*/
+/*  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+*/
 }
 
-.container {
-  text-align: center;
-  width: 80% !important;
+.project-photo img{
+  height: 25rem;
+  padding: 55px 72px 135px;
 }
 
-.container p {
-  font-weight: 300;
-  line-height: 1.25;
-  font-size: 20px;
+.title h2{
+  font-size: 35px;
 }
 
 .photo-size{
-  width: 50px;
-  height: 45px;
-  margin-top: 16px
+  width: 15%;
+  height: 30%;
 }
 
 .flex-logo {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  top-margin: 6px;
+  padding: 55px
 }
 
 .flex-logo h2 {
-  margin-top: 16px
+  margin-top: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
 }
 
 .pop {
