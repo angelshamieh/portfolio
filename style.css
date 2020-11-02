@@ -362,7 +362,7 @@ line-height: 1.25;
     font-weight: 800;
     font-size: 10px;
     font-family: 'Open Sans', sans-serif;
-    width: 75px;
+    width: 60px;
 }
 
 .banner p {
@@ -370,7 +370,8 @@ line-height: 1.25;
     opacity: .7;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
     font-weight: 300;
-    width:75px;
+    width:60px;
+    margin-top: 8px !important;
 }
 .big-img img {
     height: 200;
@@ -436,6 +437,8 @@ line-height: 1.25;
 
 .column li {
   font-size: 11px;
+  margin-left: -48px;
+
 
 }
 
@@ -473,6 +476,8 @@ line-height: 1.25;
 
 .card-category p {
   font-size: 11px;
+  margin-top: 10px;
+
 
 }
 
