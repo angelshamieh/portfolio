@@ -180,9 +180,7 @@ line-height: 1.25;
 }
 
 .knowledge p {
-  color: black;
   font-size: 24px;
-
 }
 
 .list-center{
@@ -327,8 +325,13 @@ line-height: 1.25;
 }
 
 .photo-size{
-  width: 15%;
-  height: 30%;
+  width: 7%;
+  height: 16%;
+}
+
+.photo-size0{
+  width: 4%;
+  height: 16%;
 }
 
 .flex-logo {
@@ -343,5 +346,152 @@ line-height: 1.25;
 
 .pop {
   border: 3px solid #F0961F;
+}
+
+@media (max-width: 700px) {
+  .banner img {
+    border-radius: 1500px;
+    height: 110px;
+    text-align: center;
+    margin: 0 0px;
+  }
+
+  .banner h1 {
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 10px;
+    font-weight: 800;
+    font-size: 10px;
+    font-family: 'Open Sans', sans-serif;
+    width: 75px;
+}
+
+.banner p {
+    font-size: 8px;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-weight: 300;
+    width:75px;
+}
+.big-img img {
+    height: 200;
+    height: 192px;
+    width: 337px;
+    margin left: 1;
+    margin-left: 44px;
+}
+.section {
+    background: #F09642;
+    padding: 1rem 0.5rem;
+}
+.section h3 {
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.box {
+  padding: 0px 48px;
+}
+
+
+.box p {
+    font-size: 8px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    opacity: .9;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+.content {
+  height: 350px !important;
+}
+
+.column {
+     padding: 0px 0px;
+    flex-grow: 1;
+}
+
+.column img {
+    margin-bottom: -2.5rem;
+    height: 36px;
+}
+
+.column h2 {
+    font-size: 7px;
+}
+.column p {
+    font-size: 11px;
+    font-weight: 300;
+    font-size: -13px;
+    font-weight: 300;
+    opacity: .7;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    margin-top: .5rem;
+}
+
+.orange-color {
+    color: #F09642;
+    font-weight: 350;
+    font-size: 11px !important;
+}
+
+.column li {
+  font-size: 11px;
+
+}
+
+.title {
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background: #F09642;
+    padding: 35px;
+    margin-top: -16px;
+    font-weight: 800;}
+
+.title h2 {
+    font-size: 16px;
+}
+
+.title p {
+    font-size: 11px;
+    margin-top: -39px;
+}
+.card-category {
+
+    height: 9rem;
+    width: 100%;
+    font-size: 16px;
+  }
+
+.flex-logo {
+    padding: 16px;
+}
+
+.flex-logo h2 {
+  font-size:16px;
+}
+
+.card-category p {
+  font-size: 11px;
+
+}
+
+.project-photo img {
+    height: 5rem;
+    padding: 30px 19px 2px;
+}
+.photo-size0 {
+    width: 9%;
+    height: 14%;
+}
+
+}
+.photo-size {
+   width: 15%;
+  height: 14%;
+}
+.footer-copyright{
+  font-size: 11px;
+}
 }
 
